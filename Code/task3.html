@@ -1,0 +1,62 @@
+<!-- Create a navigation bar similar to question 1. For each navigation item, use a different border style. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+      }
+      nav {
+        width: 100%;
+        background: blue;
+        height: 7%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+      }
+      a {
+        color: #fff;
+        padding: 10px;
+        margin: 10px 20px;
+      }
+      #n1 {
+        border-style: dashed;
+      }
+      #n2 {
+        border-style: dotted;
+      }
+      #n3 {
+        border-style: double;
+      }
+      #n4 {
+        border-style: groove;
+      }
+      #n5 {
+        border-style: solid;
+      }
+      a:hover {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a id="n1" href="">Home</a>
+      <a id="n2" href="">About Us</a>
+      <a id="n3" href="">Contact</a>
+      <a id="n4" href="">Blog</a>
+      <a id="n5" href="">Login</a>
+    </nav>
+  </body>
+</html>
